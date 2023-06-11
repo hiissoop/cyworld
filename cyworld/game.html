@@ -3,6 +3,7 @@
 <head>
     <title>Game</title>
     <link href="./styles/game.css" rel="stylesheet">
+    <script defer src="./js/game.js"></script>
 </head>
 <body>
     <div class="wrapper">
@@ -18,8 +19,8 @@
             <div class="game__title">끝말잇기</div>
             <div class="game__subtitle">제시어 : <span id="word">코드캠프</span></div>
             <div class="word__text">
-                <input id="myword" class="textbox" type="text" placeholder="단어를 입력하세요">
-                <button class="search" onclick="">입력</button>
+                <input id="my__word" class="textbox" type="text" placeholder="단어를 입력하세요">
+                <button class="search" onclick="startWord()">입력</button>
             </div>
             <div id="result" class="word__result">결과!</div>
         </div>
