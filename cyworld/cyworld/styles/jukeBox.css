@@ -1,0 +1,107 @@
+/* right box header */
+.right__box__header {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 20px;
+}
+.updated__news {
+  display: flex;
+  align-items: center;
+  font-weight: 700;
+  font-size: 13px;
+  color: #55b2d4;
+}
+.updated__news div {
+  margin-right: 5px;
+}
+.updated__news span {
+  color: black;
+  font-family: Georgia, "Times New Roman", Times, serif;
+  font-weight: 400;
+  font-size: 8px;
+}
+
+/* right box line */
+.right__box__line {
+  width: 436px;
+  border: 1px solid #999999;
+  margin: 8px 0px;
+}
+
+/* Juke Box Line */
+
+.best__choice__wrapper {
+  width: 436px;
+  margin-bottom: 42px;
+}
+.best__choice__wrapper {
+  display: flex;
+  justify-content: space-around;
+}
+
+.best__choice {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.best__choice img {
+  width: 120px;
+  height: 120px;
+  margin-bottom: 10px;
+}
+
+.music__title {
+  font-size: 11px;
+  font-weight: 700;
+  color: #0f465e;
+  margin-bottom: 2px;
+}
+
+.music__artist {
+  font-size: 10px;
+  font-weight: 700;
+  color: #999999;
+}
+
+/* 하단영역 */
+.right__box__footer {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 20px;
+}
+
+.updated__news_footer {
+  display: flex;
+  align-items: center;
+  font-weight: 700;
+  font-size: 13px;
+  color: #55b2d4;
+  margin-bottom: 10px;
+}
+.updated__news_footer div {
+  margin-right: 5px;
+}
+
+
+
+/* music list footer */
+.updated__news_footer span {
+  color: black;
+  font-family: Georgia, "Times New Roman", Times, serif;
+  font-weight: 400;
+  font-size: 8px;
+}
+.music__list__wrapper div {
+    width: 436px;
+    height: 20px;
+    display: flex;
+    align-items: center;
+    border-top: 1px solid #999999;
+    font-size: 10px;
+    font-weight: 400;
+}
+
+#list__first__child {
+    background-color: #EEEEEE;
+}
